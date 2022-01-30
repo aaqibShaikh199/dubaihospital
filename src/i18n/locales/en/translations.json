@@ -1,0 +1,602 @@
+{
+    "direction": "ltr",
+    "directionc": "ltr",
+    "view_profile": "View Profile",
+    "book_appoi": "Book Appointment",
+    "doctorurl": "{{demoData}}",
+    "qualification": "Qualification",
+    "License": "License",
+    "Procedures": "Procedures",
+    "yearsofex": "Years of experience",
+    "doctorapiurl": "https://doctorappapi.herokuapp.com/api/doctor",
+    "departmentapiurl": "https://doctorappapi.herokuapp.com/api/department",
+    "searcht": "search",
+    "enter_doctor": "Enter Doctor Name",
+    "no_doctor": "No Doctors of your searched name",
+    "select_dept": "Select Department",
+    "wait_till": " Wait Booking your appointment and will send you a message shortly.....",
+    "success_message": "Please fill all the field",
+    "contact_msg": "",
+    "app": {
+        "1": "Online Appointment Form",
+        "2": "Now you can request an appointment in some simple steps Online",
+        "3": "Your Full Name",
+        "4": "Your Age",
+        "5": "Gender",
+        "6": "Male",
+        "7": "Female",
+        "8": "Your Email",
+        "9": "Select Clinic",
+        "10": "Select doctor",
+        "11": "Select Date",
+        "12": "Select Slot",
+        "13": "Your Messsage",
+        "14": "Book Appointment",
+        "15": "New Patient",
+        "16": "Old Patient",
+        "17": "Enter Patient Id",
+        "18": "Enter File Number",
+        "19": "New Patient Form",
+        "20": "Old Patient Form"
+    },
+    "ujimages": {
+        "journey": "/assets/about/OIH.Our.Journey.png",
+        "chart": "/assets/about/OIH.OrganizationalChart.png",
+        "navlogo": "/assets/logo/logoen.png"
+    },
+    "bookapt": "Book Appointment",
+    "book_btn_fixed1": "Book",
+    "book_btn_fixed2": "Now",
+    "top-emergency": "Emergency: 011-431-1111",
+    "nav_brandname": "AL-Osrah International Hospital",
+    "nav": {
+        "nav_home": "Home",
+        "nav_about": "About",
+        "nav_dept": "Departments",
+        "nav_clinic": "Clinics",
+        "nav_insurance": "Insurance",
+        "nav_media": "Media",
+        "nav_contact": "Contact"
+    },
+
+    "slider": {
+        "home_slider1_a": "Trusted & Reliable",
+        "home_slider1_b": "Better Healthcare for the World",
+        "home_slider1_c": "We are dedicated to provide high quality, evidence-based and safe healthcare.",
+        "home_slider2_b": "Committed to Your Better Health",
+        "home_slider2_c": " 24 hours round the clock services through the Emergency Department also provides rehabilitation care",
+        "home_slider3_b": "Your Trust is Our Strength",
+        "home_slider3_c": "All our departments provide world-class healthcare services."
+    },
+    "find_doc": {
+        "home_find_doc_a": "Find a Doctor",
+        "home_find_doc_b": "40+ doctors on panel",
+        "home_find_doc_c": "We are dedicated to provide high quality, evidence-based and safe healthcare.",
+        "home_find_doc_btn": "Find Doctor"
+    },
+    "home_facts": {
+        "facts_heading1": "Serving the World",
+        "facts_heading2": "since 1991",
+        "facts_exp": "Years of Experience",
+        "facts_doc_on_panel": "Doctors on Panel",
+        "facts_clinics": "Clinics Available",
+        "facts_patients": "Patients per Year",
+        "facts_lab": "Lab Investigations per Year",
+        "facts_surgery": "Surgery Operations per Year",
+        "facts_birth": "Birth Deliveries per Year"
+    },
+    "departments": {
+        "dtitle": "Hospital Departments",
+        "dpara": " Patient care and getting CBAHI Reaccreditation with continues improvement and Enhancement in quality level and provided services",
+        "a": {
+            "name": "Radiology",
+            "info": "Radiology is a medical specialty that uses imaging to diagnose and treat diseases seen within the body. The radiology department may also be called the X-ray or imaging department"
+        },
+        "b": {
+            "name": "Laboratory",
+            "info": "Where tests are carried out on clinical specimens to obtain information about the health of a patient to aid in diagnosis, treatment, and prevention of disease"
+        },
+        "c": {
+            "name": "Physiotherapy",
+            "info": "Healthcare profession concerned with the assessment, maintenance, and restoration of the physical function and performance of the body by physical trainers."
+        },
+        "d": {
+            "name": "Out-Patient Clinics",
+            "info": "An outpatient department or outpatient clinic is the part of a hospital designed for the treatment of outpatients"
+        },
+        "e": {
+            "name": "In-Patient",
+            "info": "Inpatient care requires overnight hospitalization. Patients must stay at the medical facility where their procedure was done"
+        },
+        "f": {
+            "name": "Operations (OR) department ",
+            "info": "The OR consists of individualized rooms with specific equipment for performing surgeries, including robotic systems."
+        },
+        "g": {
+            "name": "Home care",
+            "info": "Skilled care delivered directly to a patient's home. This type of care is provided by licensed medical professionals including nurses, therapists, and aides for the purpose of treating or managing an illness, injury, or medical condition"
+        },
+        "h": {
+            "name": "Pharmacy",
+            "info": "Hospital pharmacists are experts in medicines who work as part of multidisciplinary healthcare teams to manage the use of medicines in hospitals."
+        },
+        "i": {
+            "name": "Delivery",
+            "info": "The care and treatment of women in childbirth and during the period before and after delivery. of or relating to childbirth or obstetrics. Abbreviations"
+        },
+        "j": {
+            "name": "ICU (Intermidiate Care Unit)",
+            "info": "Intermidiate Care Unit in a hospital that provides intermediate care to partially critical ill or injured patients, staffed by specially trained medical staff and has equipment that allows for continuous monitoring and life support."
+        },
+        "k": {
+            "name": "ER",
+            "info": "A hospital room or area staffed and equipped for the reception and treatment of persons with conditions (as illness or trauma) requiring immediate medical care."
+        },
+        "l": {
+            "name": "Internal Medicine",
+            "info": "Internal medicine is a medical specialty in which physicians apply scientific knowledge and clinical expertise to diagnose and treat adults with a very broad range of health concerns and diseases"
+        },
+        "m": {
+            "name": "NICU (Neonatal Intensive Care Unit)",
+            "info": "Newborn babies who need intensive medical care are often put in a special area of the hospital called the neonatal intensive care unit (NICU). "
+        },
+        "n": {
+            "name": "Intensive Care Unit",
+            "info": "Intensive care refers to the specialised treatment given to patients who are acutely unwell and require critical medical care. An intensive care unit (ICU) provides the critical care and life support for acutely ill and injured patients."
+        },
+        "o": {
+            "name": "Incubator Care Unit",
+            "info": "Newborn babies who need intensive medical care are often put in a special area of the hospital called the neonatal intensive care unit (NICU). The NICU has advanced technology and trained healthcare professionals to give special care for the tiniest patients."
+        }
+    },
+    "allclinics": {
+        "a": {
+            "name": "Pediatric",
+            "info": "A paediatrician is a child's physician who provides not only medical care for children who are acutely or chronically ill but also preventive health services for healthy children."
+        },
+        "b": {
+            "name": "Gynecology and Obstetrics",
+            "info": "OB-GYNs also historically have more cultural competency training around gender based issues.."
+        },
+        "c": {
+            "name": "Ophthalmology",
+            "info": "Ophthalmology is a branch of medicine dealing with the diagnosis, treatment and prevention of diseases of the eye and visual system."
+        },
+        "d": {
+            "name": "Gastroenterology",
+            "info": "Gastroenterology is a medical specialty dealing with the study of the digestive system and its disorders."
+        },
+        "e": {
+            "name": "Cardiology",
+            "info": "Cardiology is the study and treatment of disorders of the heart and the blood vessels."
+        },
+        "f": {
+            "name": "Dentistry",
+            "info": "Dentistry, the profession concerned with the prevention and treatment of oral disease, including diseases of the teeth and supporting structures and diseases of the soft tissues of the mouth."
+        },
+        "g": {
+            "name": "Dietitian",
+            "info": "The Clinical Nutrition & Dietetics department at Lifepoint Multispecialty Hospital is a one-stop solution for all therapeutic diet and nutrition queries when it comes to health and illness."
+        },
+        "h": {
+            "name": "Dermatology and Cosmetology",
+            "info": "Dermatology is the branch of medicine dealing with the skin. It is a speciality with both medical and surgical aspects."
+        },
+        "i": {
+            "name": "Orthopedics",
+            "info": " Orthopedics is the branch of medicine concerned with diseases, injuries and conditions of the musculoskeletal system or the body's muscles and skeleton."
+        },
+        "j": {
+            "name": "General Surgery",
+            "info": "General surgery are deal with diseases involving the skin, breast, soft tissue, trauma, Peripheral artery disease and hernias."
+        },
+        "k": {
+            "name": "Urology",
+            "info": "Urology is a part of health care that deals with diseases of the male and female urinary tract (kidneys, ureters, bladder and urethra)."
+        },
+        "l": {
+            "name": "Neuro",
+            "info": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system."
+        },
+        "m": {
+            "name": "Psychiatric",
+            "info": "Psychiatry is the branch of medicine focused on the diagnosis, treatment and prevention of mental, emotional and behavioral disorders."
+        },
+        "n": {
+            "name": "Bariatric Surgery",
+            "info": "Bariatric surgery is an operation that is performed in order to help such individuals lose weight."
+        },
+        "o": {
+            "name": "Physiotherapy",
+            "info": "Healthcare profession concerned with the assessment, maintenance, and restoration of the physical function."
+        },
+        "p": {
+            "name": "ENT (Ear, Nose & Throat)",
+            "info": "If you have a health problem with your head or neck, your doctor might recommend that you see an otolaryngologist."
+        }
+    },
+    "to": "Treatmemt Offered",
+    "dm": "Diagnostic modalities",
+    "tm": "Therapeutic modalities",
+    "PediatricsDepartment": {
+        "dname": "Pediatrics Department",
+        "detail": "A paediatrician is a child's physician who provides not only medical care for children who are acutely or chronically ill but also preventive health services for healthy children. A paediatrician manages physical, mental, and emotional well-being of the children under their care at every stage of development, in both sickness and health. Pediatrics is the branch of medicine dealing with the health and ‎medical care of infants, children, and adolescents from birth up to the ‎age of 18.‎",
+        "treatment": "Dedicated to providing children under 14 years of age with the highest quality of care in a comforting environment, the Pediatrics department at Osra Hospital is one of the most trusted in the region.",
+        "dm1": "Blood sampling",
+        "dm2": "Pulse oxymetry ",
+        "dm3": "Throat swab and skin swab for Culture and Sensitivity studies",
+        "dm4": "Arterial blood gas sampling",
+        "dm5": "Radiological & Laboratory investigation",
+        "tm1": "Intravenous line cannulation",
+        "tm2": "Intravenous fluid administration ",
+        "tm3": "Gastric lavage",
+        "tm4": "Naso-gastric tube placement",
+        "tm5": "Umbilical vein catheterization",
+        "tm6": "Phototheraphy",
+        "tm7": "Chest tube placement",
+        "tm8": "Conventional mechanical ventilation",
+        "tm9": "Management of Neonatal diseases",
+        "tm10": "Management of Pediatric diseases as DKA, RSV, Bronchopneumonia, convulsions and other diseases",
+        "tm11": "Umbilical artery catheterization",
+        "tm12": "Neonatal resuscitation",
+        "tm13": "High frequency oscillatory ventilation."
+    },
+    "GastroenterologyDepartment": {
+        "dname": "Gastroenterology  Department",
+        "detail": "Gastroenterology is a medical specialty dealing with the study of the digestive system and its disorders. ... Gastrointestinal services incorporate a joint medical and surgical approach for the prevention, diagnosis and treatment of gastrointestinal, liver and pancreatic disorders including cancer.\u000d\u000a\u000d\u000a          The department is manned by esteemed and experienced gastroenterologists, efficient medical officers, skilled and compassionate paramedical staff, and well-trained technicians. The aim of the department is to provide a patient-focused approach.",
+        "treatment": "Our Gastroenterology Department is dedicated to exceeding expectations. We provide cutting edge treatment",
+        "tm1": "Herpetology and Endoscopy",
+        "tm2": "Diagnose and treating internal Medicine",
+        "tm3": "Liver Diseases",
+        "tm4": "Gastrointestinal",
+        "tm5": "Pancreatic Diseases"
+    },
+    "CardiologyDepartment": {
+        "dname": "Cardiology Department",
+        "detail": "Cardiology is the study and treatment of disorders of the heart and the blood vessels. A person with heart disease or cardiovascular disease may be referred to a cardiologist. Cardiology is a branch of internal medicine.\u000d\u000a\u000d\u000a          A cardiologist is not the same as a cardiac surgeon. A cardiac surgeon opens the chest and performs heart surgery. A cardiologist specializes in diagnosing and treating diseases of the cardiovascular system.",
+        "treatment": "Our department of Cardiology is dedicated to exceeding expectations. We provide cutting edge treatment of disorders below",
+        "tm1": "Internal medicine Cases",
+        "tm2": "Cardio Vascular System",
+        "tm3": "Trauma",
+        "tm4": "High Blood Pressure",
+        "tm5": "Diabetes",
+        "tm6": "Incision biopsy",
+        "tm7": "Excision Biopsy",
+        "tm8": "Diagnostic Laparoscopy",
+        "tm9": "Respiratory system",
+        "tm10": "Digestive system"
+    },
+    "Gastroenterology  Department": {
+        "dname": "Gastroenterology  Department",
+        "detail": "Gastroenterology is a medical specialty dealing with the study of the digestive system and its disorders. ... Gastrointestinal services incorporate a joint medical and surgical approach for the prevention, diagnosis and treatment of gastrointestinal, liver and pancreatic disorders including cancer.\u000d\u000a\u000d\u000a          The department is manned by esteemed and experienced gastroenterologists, efficient medical officers, skilled and compassionate paramedical staff, and well-trained technicians. The aim of the department is to provide a patient-focused approach.",
+        "treatment": "Our Gastroenterology Department is dedicated to exceeding expectations. We provide cutting edge treatment",
+        "tm1": "Herpetology and Endoscopy",
+        "tm2": "Diagnose and treating internal Medicine",
+        "tm3": "Liver Diseases",
+        "tm4": "Gastrointestinal",
+        "tm5": "Pancreatic Diseases"
+    },
+    "Cardiology Department": {
+        "dname": "Cardiology Department",
+        "detail": "Cardiology is the study and treatment of disorders of the heart and the blood vessels. A person with heart disease or cardiovascular disease may be referred to a cardiologist. Cardiology is a branch of internal medicine.\u000d\u000a\u000d\u000a          A cardiologist is not the same as a cardiac surgeon. A cardiac surgeon opens the chest and performs heart surgery. A cardiologist specializes in diagnosing and treating diseases of the cardiovascular system.",
+        "treatment": "Our department of Cardiology is dedicated to exceeding expectations. We provide cutting edge treatment of disorders below",
+        "tm1": "Internal medicine Cases",
+        "tm2": "Cardio Vascular System",
+        "tm3": "Trauma",
+        "tm4": "High Blood Pressure",
+        "tm5": "Diabetes",
+        "tm6": "Incision biopsy",
+        "tm7": "Excision Biopsy",
+        "tm8": "Diagnostic Laparoscopy",
+        "tm9": "Respiratory system",
+        "tm10": "Digestive system"
+    },
+    "Der1": {
+        "one": "Dermatology and Cosmetology",
+        "two": "Peeling( Chemical Type)",
+        "three": "Cosmetology",
+        "four": "PRP Plastic for hair removal",
+        "five": "Acne treatment",
+        "six": "Skin diseases",
+        "seven": "Hyperpigmentation",
+        "title": " Dermatology and Cosmetology Department",
+        "body1": " Dermatology is the branch of medicine dealing with the skin. It is a speciality with both medical and surgical aspects. A dermatologist is a specialistmedical doctor who manages diseases related to skin,hair, nails, and some cosmetic problems.",
+        "body2": "A dermatologist is a doctor who specializes in conditions involving the skin, hair, and nails. A dermatologist can identify and treat more than 3,000 conditions.",
+        "Treatmenthead": "Treatments Offered",
+        "Treatmentbody": " Our dermatology and cosmetology specialists have expertise in"
+    },
+
+    "En1": {
+        "one": "Laryngoscopy",
+        "two": "Flexible Nasoendoscopy",
+        "three": "Audiometer",
+        "four": "Tonsillectomy",
+        "five": "Adenoidectomy",
+        "six": "Turbinectomy",
+        "seven": "Septoplasty",
+        "eight": "Uvulva reconstruction",
+        "nine": "Trachial intubation",
+        "ten": "Bronchial Washing",
+        "eleven": "Tracheostomy",
+        "twelve": "Nasal polypectomy",
+        "thirteen": "FESS: functional endoscopic sinus surgery",
+        "fourteen": "Fracture nasal bone fixation",
+        "title": "Ear, nose & throat Department",
+        "body1": " Surgical specialists who diagnose, evaluate and manage a wide range of diseases of the head and neck, including the ear, nose and throat regions are Otorhinolaryngologists (also known as otolaryngologists or ear, nose and throat or ENT Surgeons).",
+        "body2": " If you have a health problem with your head or neck, your doctor might recommend that you see an otolaryngologist. That's someone who treats issues in your ears, nose, or throat as well as relatedareas in your head and neck.",
+        "Treatmenthead": " Treatments Offered",
+        "Treatmentbody": "The ENT Department is dedicated to exceeding expectations. We provide cutting edge treatment"
+    },
+
+    "Den1": {
+        "one": "Laboratory investigations include blood hematology",
+        "two": "Periapical x-ray, panoramic , CT scan.",
+        "three": "Excision biopsy",
+        "four": "Oral hygiene instruction.",
+        "five": "Root Canals treatment",
+        "six": "Cosmetic fillings",
+        "seven": "Tooth extraction",
+        "eight": "Removable prosthodontics",
+        "nine": "Fixed prosthodontice",
+        "ten": "Gum treatment",
+        "eleven": "Orthodontics",
+        "title": "Dentistry Department",
+        "body1": " Dentistry, the profession concerned with theprevention and treatment of oral disease, including diseases of the teeth and supporting structures and diseases of the soft tissues of the mouth.",
+        "body2": "Dentistry is one of the best open access journals that aims to publish the most complete and reliablesource of information on discoveries and currentdevelopments in the mode of original articles, review articles, case reports, short communications, etc. in this field and provide online access withoutany restrictions or subscriptions to researchers worldwide.",
+        "Treatmenthead": "Treatments Offered",
+        "Treatmentbody": " Our Dentistry Department is dedicated to exceeding expectations. We provide cutting edge treatment"
+    },
+
+    "Ortho1": {
+        "one": "Joint Diseases",
+        "two": "Tumors",
+        "three": "Trauma closed and open reduction",
+        "four": "Local joint Injections",
+        "five": "Plaster cast (POP)",
+        "six": "Tendon repair",
+        "seven": "Arthroplasty",
+        "eight": "Sports Injury",
+        "title": "Orthopedics Department",
+        "body1": " Orthopedics is the branch of medicine concerned with diseases, injuries and conditions of the musculoskeletal system or the body's muscles and skeleton. This structure also includes the joints, tendons, ligaments and nerves.",
+        "body2": "The vision of the Department of Orthopedics is to achieve the goal to offer painless, total, functional recovery to patients",
+        "Treatmenthead": "Treatments Offered",
+        "Treatmentbody": "The Orthopaedic department at our hospitals delivers personalised care utilising the latest research and evidence-based medicine."
+    },
+    "OBGyne": {
+        "one": "Laboratory investigations include blood chemistry, hematology, serology, hormone assay, urinalysis, cytology",
+        "two": "Smears(e.g. pap smear)",
+        "three": "Biopsies",
+        "four": "Ultrasonographies",
+        "five": "CT Scan",
+        "six": "Conventional Diagnostic Radiology",
+        "seven": "D&C",
+        "eight": "Caesarean Section",
+        "nine": "Normal Deliveries/instrumental Deliveries/ Epidural Injection (Painless)",
+        "ten": "All other Gynecological operations",
+        "eleven": "Hysterectomy (Partial or Complete)",
+        "twelve": "Insertion & removal of IUD",
+        "thirteen": "Episiotomy",
+        "fourteen": "Perineal Repair",
+        "fifteen": "Vaginal Re-Construction Surgeries",
+        "title": "OB/Gyne Department",
+        "body1": " Obstetrics and gynecology is a field thought of astraditionally serving women because of it's focus on the female reproductive system, leading careproviders to make assumptions about patients' gender identity and expression in 'women's health clinics' when many transgender or nonbinary patients may also seek care from OB-GYNs.",
+        "body2": " OB-GYNs also historically have more cultural competency training around gender based issues..",
+        "treatmenthead": "Treatments Offered",
+        "treatmentbody": "Our physicians use a range of diverse treatments"
+    },
+    "dietitian": {
+        "title": "Dietitian",
+        "subTitle": "Dietitian Department",
+        "bodyPart1": "The Clinical Nutrition & Dietetics department at Lifepoint Multispecialty Hospital is a one-stop solution for all therapeutic diet and nutrition queries when it comes to health and illness. We provide comprehensive nutrition and diet services to both in-patients and out-patients.",
+        "bodyPart2": "A dietitian, medical dietitian, or dietician is an expert in identifying and treating disease-related malnutrition and in conducting medical nutrition therapy. A dietitian, medical dietitian, or dietician is an expert in identifying and treating disease-related malnutrition and in conducting medical nutrition therapy",
+        "treatmentHead": "Treatments Offered",
+        "treatmentBody": "Our clinical dietician is specialized is assessing the nutritional status of the patient, calculate individual nutritional requirements and plan the diet accordingly depending upon the patients health condition.",
+        "deptHead": "Department Doctors",
+        "deptSubHead": "Our expert team of dietitian specializes",
+        "treatment1": "Slimming and fitness programs",
+        "treatment2": "Obesity programs",
+        "treatment3": "Monitor the nutritional status of patients",
+        "treatment4": "Follow-up of the nutritional status of the patient after the operations"
+    },
+    "er": {
+        "title": "ER Department"
+    },
+    "alldeps": "All Departments",
+    "hc": "Hospital Clinics",
+    "hcpara": "No more illness!! We assure you! We care for your healthy well being. When health is at stake.",
+    "inc": "Insurance",
+    "media": "Media",
+    "depdoc": "Department Doctors",
+    "addressfull": "Exit 29 - Riyadh",
+    "text-footer": "Emergency, Pharmacy, Laboratory, Patient Relations (in-duty manager)",
+    "hrs": "24 Hours",
+    "findus": "Find Us",
+    "about": {
+        "abus": "About us",
+        "about_hist": "Our History",
+        "about_histpara": "AlOsrah international Hospital is a Secondary level facility with 50 bed-Capacities situated in the middle of Riyadh city, Saudi Arabia. It provides inpatient and outpatient services to Male and Female patients of all age groups, nationalities and 24 hours round the clock services through the Emergency Department also provides rehabilitation care",
+        "vision": "Vision",
+        "visionpara": "To be a benchmark in provision of quality healthcare services in the private sector in the Kingdom",
+        "mission": "Mission",
+        "missionpara": " We are dedicated to provide high quality, evidence-based and safe healthcare.",
+        "values": "Values",
+        "valuespara": "Dignity and respect | Medical excellence | Transparency | Justice | Safety | Teamwork | Loyalty",
+        "why": "Why Choose Us",
+        "board": "Board of Directors Members",
+        "admin": "Administration Members"
+    },
+    "contact": {
+        "title": "Contact Us",
+        "name": "Name",
+        "yourname": "Your Name",
+        "phone": "Phone",
+        "yrph": "Your phone number",
+        "email": "Email",
+        "youremail": "Your email",
+        "msg": "Message",
+        "sub": "Subject",
+        "yurmsg": "Your Message",
+        "submit": "Submit"
+    },
+    "maintitle": "AlOsrah international Hospital is a Secondary level facility with 50 bed-Capacities situated in the middle of Riyadh city, Saudi Arabia.",
+    "quicklinks": "Quick Links",
+    "getsup": "Get Support",
+    "workinghrs": "Working Hours",
+    "allrihtres": "© Al-Osrah International Hospital - All rights reserved",
+    "devby": "Developed by EnR Team",
+    "outpat": "Outside patient,",
+    "inpatfooter": "In patient visit times",
+    "getint": "Get in Touch",
+    "addr": "Address",
+    "morn": "Morning",
+    "even": "Evening",
+    "stt": "Saturday to Thursday",
+    "fr": "Friday",
+    "clinic": {
+        "test": "Gastric Bypass"
+    },
+    "GeneralSurgery": {
+        "dname": "General Surgery",
+        "detail": "General surgery is a surgical specialty that focuses on abdominal contents including the esophagus, stomach, small intestine, large intestine, liver, pancreas, gallbladder, appendix and bile ducts, and often the thyroid gland.General surgery are deal with diseases involving the skin, breast, soft tissue, trauma, Peripheral artery disease and hernias and perform endoscopic procedures such as gastroscopy and colonoscopy.",
+        "treatment": "We use cutting edge technology to execute a wide range of general surgeries, including",
+        "dm1": "Incision biopsy",
+        "dm2": "Excision",
+        "dm3": "FNAC",
+        "dm4": "Diagnostic Laparoscopy",
+        "dm5": "Procto-sigmoidoscopy",
+        "tm1": "Appendectomy ( open and laproscopic)",
+        "tm2": "Inguinal, Umbilical and Femoral Hernioplasty ( open and laproscopic)",
+        "tm3": "Cholecystectomy ( open and laproscopic)",
+        "tm4": "Haemorrhoidectomy, Fissurectomy, Fistulectomy",
+        "tm5": "Thyroidectomy",
+        "tm6": "Pilonidal sinus excision & flap closure",
+        "tm7": "Peritonitis",
+        "tm8": "Ascities",
+        "tm9": "Peptic ulcer perforation",
+        "tm10": "Mastectomy",
+        "tm11": "Colorectal Surgery",
+        "tm12": "Laparotomy",
+        "tm13": "Bowel resection anastomosis",
+        "tm14": "Stoma creation and take down",
+        "tm15": "Exploratory lapatotomy"
+    },
+    "neuro": {
+        "head": "Neuro Department",
+        "para1": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, sophisticated system that regulates and coordinates body activities. A doctor who specializes in neurology is called a neurologist. The neurologist treats disorders that affect the brain, spinal cord, and nerves",
+        "para2": "The department offers the latest in neurological care with innovative therapies, new techniques and clinical trials developed by our world-class experts. Our neurologists help more than 100,000 adults and children each year, including those with complex or rare conditions.",
+        "topara": "Our Neurology Department is dedicated to exceeding expectations. We provide cutting edge treatment of disorders below",
+        "tm1": "Evaluation of diseases",
+        "tm2": "Psychological Assessment"
+    },
+    "Urology": {
+        "dname": "Urology Department",
+        "detail": "Urology is a part of health care that deals with diseases of the male and female urinary tract (kidneys, ureters, bladder and urethra). It also deals with the male organs that are able to make babies (penis, testes, scrotum, prostate, etc.). Since health problems in these body parts can happen to everyone, urologic health is important.",
+        "treatment": "Due to the multi-faceted nature of urology, our physicians also boast exceptional knowledge in",
+        "dm1": "Urethro - cystocopy",
+        "dm2": "Diagnostic Laparoscopy",
+        "tm1": "Pyelolithotomy",
+        "tm2": "ESWL",
+        "tm3": "Andrology",
+        "tm4": "Laproscopic Procedures",
+        "tm5": "Folley Catherization"
+    },
+
+    "Ophthalmology": {
+        "one": "Ophthalmoscope",
+        "two": "Retino-scope",
+        "three": "Refraction",
+        "four": "Orthopedic Trauma",
+        "five": "Close & Open reduction procedures",
+        "six": "Plaster cast (POP)",
+        "seven": "Open reduction & internal fixation",
+        "eight": "Tendon repair",
+        "nine": "Reduction of Joint dislocation",
+        "ten": "Orthopedic joint reconstruction Surgery",
+        "eleven": "Arthroplasty",
+        "twelve": "Sports Injury",
+        "title": " Ophthalmology Department",
+        "body1": " Ophthalmology is a branch of medicine dealing with the diagnosis, treatment and prevention of diseases of the eye and visual system. The eye, its surrounding structures and the visual system can be affected by a number of clinical conditions.",
+        "body2": "A general practice doctor may refer someone to an ophthalmologist if they show symptoms of cataracts, eye infections,optic nerve problems, or other eye conditions.",
+        "treatmenthead": "Treatments Offered",
+        "treatmentbody": "The Ophthalmology clinic is specialized in :"
+    },
+    "psyc": {
+        "head": "Pshyciatric Department",
+        "para1": "Psychiatry is the branch of medicine focused on the diagnosis, treatment and prevention of mental, emotional and behavioral disorders. A psychiatrist is a medical doctor (an M.D. or D.O.) who specializes in mental health, including substance use disorders. Psychiatrists are qualified to assess both the mental and physical aspects of psychological problems.",
+        "para2": "People seek psychiatric help for many reasons. The problems can be sudden, such as a panic attack, frightening hallucinations, thoughts of suicide, or hearing voices. Or they may be more long-term, such as feelings of sadness, hopelessness, or anxiousness that never seem to lift or problems functioning, causing everyday life to feel distorted or out of control.",
+        "topara": "Our department of Psychiatry is dedicated to exceeding expectations. We provide cutting edge treatment of disorders below",
+        "tm1": "Evaluation of diseases",
+        "tm2": "Psychological Assessment"
+    },
+    "bari": {
+        "head": "Bariatric Surgery Department",
+        "para1": "Exercise and diet alone often fails to effectively treat people with extreme and excessive obesity. Bariatric surgery is an operation that is performed in order to help such individuals lose weight. Evidence suggests that bariatric surgery may lower death rates for patients with severe obesity, especially when coupled with healthy eating and lifestyle changes after surgery.",
+        "para2": "These surgeries generally pose major risks and side effects and the patient has to make changes to their diet permanently and also schedule a fixed exercise regime so that they can ensure the lasting success of bariatric surgeries.",
+        "tohe": " Our department of Bariatric Surgery is dedicated to exceeding expectations. We provide cutting edge treatment",
+        "tm1": "Gastric Bypass",
+        "tm2": "Gastric Banding",
+        "tm3": "Gastrostomy Sleeve",
+        "tm4": "Tumor operations",
+        "tm5": "All types of obesity operations (re-obesity and morbid obesity)",
+        "tm6": "Laparoscopic sleeve gastrectomy",
+        "tm7": "SADI operation",
+        "tm8": "SASI process",
+        "tm9": "Oncology surgery",
+        "tm10": "General surgeries",
+        "tm11": "Mini gastric bypass"
+    },
+    "psyo": {
+        "head": "Physiotherapy Department",
+        "para1": "Healthcare profession concerned with the assessment, maintenance, and restoration of the physical function and performance of the body by physical trainers.",
+        "topara": "Our department of Physiotherapy is dedicated to exceeding expectations. We provide cutting edge treatment of disorders below",
+        "tm1": "Treating orthopedic and neurological diseases",
+        "tm2": "Sports injury rehabilitation",
+        "tm3": "Thromboembolism treatment",
+        "tm4": "Rehabilitation of handicapped children",
+        "tm5": "Facial nerve treatment"
+    },
+    "adminmem": {
+        "1": {
+            "name": "Mr. Alla Adel Abdulrhman Bin Soufayan",
+            "pos": "General Director"
+        },
+        "2": {
+            "name": "Mr.ALI Saqer",
+            "pos": "Finance Director"
+        },
+        "3": {
+            "name": "Dr. Feras Al-harbi",
+            "pos": "Medical Director"
+        },
+        "4": {
+            "name": "Dr. Adulrahman Sweyfi",
+            "pos": "Deputy Medical Director"
+        },
+        "5": {
+            "name": "Mr. Sameer Mohammed",
+            "pos": "Internal controller"
+        }
+    },
+    "bod": {
+        "1": {
+            "name": "Mr. Hesham Abdulrahman Albajadi",
+            "pos": "Chairman of Board of Directors"
+        },
+        "2": {
+            "name": "Mohammed Abdulrahman Al Olake",
+            "pos": "Deputy Chairman of the Board"
+        },
+        "3": {
+            "name": "Mr. Faisal Abdulrahman Albajadi",
+            "pos": "Member of the Board of Directors"
+        },
+        "4": {
+            "name": "Mr. Bader Abdulrahman Albajadi",
+            "pos": "Member of the Board of Directors"
+        }
+    },
+    "intimeds": {
+        "title": "Internal Medicine Department",
+        "desc": "Internal medicine or general internal medicine is the medical specialty dealing with the prevention, diagnosis, and treatment of internal diseases."
+    }
+}

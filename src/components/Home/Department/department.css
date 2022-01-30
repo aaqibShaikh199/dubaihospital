@@ -1,0 +1,70 @@
+.department {
+  width: 100%;
+}
+.depContainer {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.depMain {
+  text-align: center;
+}
+.depMainHead {
+  font-size: 30px;
+  font-weight: 700;
+}
+.depMainPara {
+  font-size: 18px;
+  color: #8ea1ae;
+  margin: 15px 0;
+}
+.depLine {
+  width: 60px;
+  height: 4px;
+  background: #447cc5;
+  margin: 25px auto;
+}
+.depCard {
+  background: #eff5f9;
+  padding: 40px;
+  text-align: center;
+  margin: 10px;
+  width: 350px;
+}
+.depIcon {
+  margin: 0 auto;
+  background-color: #3c0c1c !important;
+  width: 100px;
+  height: 100px;
+  /* border-radius: 50%; */
+  box-shadow: 1px 1px 10px 1px rgb(216, 213, 213);
+}
+.depIconImg {
+  width: 100%;
+  background-color: #3c0c1c !important;
+  height: 100%;
+  padding: 15px;
+  object-fit: fill;
+  -webkit-clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
+  clip-path: polygon(20% 0, 80% 0, 100% 50%, 80% 100%, 20% 100%, 0 50%);
+}
+.depHead {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+.depAbout {
+  font-size: 18px;
+  font-weight: 500;
+  color: #447cc5;
+}
+.depDetailHome {
+  font-size: 16px;
+  color: #8ea1ae;
+  margin: 15px 0;
+}
+.depLink:hover {
+  text-decoration: underline;
+}

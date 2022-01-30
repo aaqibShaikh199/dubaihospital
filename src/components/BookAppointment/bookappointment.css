@@ -1,0 +1,114 @@
+.bookAppointment {
+    width: 100%;
+    box-sizing: border-box;
+}
+.bookWrapper {
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.appointmentText {
+    margin: 20px 0;
+    text-align: center;
+}
+.appointmentHead {
+    color: #3c0c1c;
+    font-size: 30px;
+    font-weight: 700;
+}
+.appointmentPara {
+    color: #3c0c1c;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.appointmentForm {
+    padding: 20px 0;
+    width: 70%;
+}
+.bookFormItem {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid lightgrey;
+    margin: 10px 0;
+}
+
+.serviceText {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.bookFormItems {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.bookFormRow {
+    margin-right: 20px;
+}
+.bookFormCheck {
+    margin: 10px 0;
+    margin-right: 8px;
+}
+.bookFormRadio {
+    margin: 8px 0;
+    margin-right: 5px;
+}
+.bookFormLabel {
+    margin-right: 20px;
+}
+textarea {
+    resize: none;
+}
+.bookFormBtn {
+    width: 100%;
+}
+.bookFormButton {
+    /* background-color: #588325; */
+    margin: 10px auto;
+    padding: 8px;
+    display: block;
+    width: 50%;
+    background-color: #427cc5;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 700ms;
+}
+.bookFormButton:hover {
+    background-color: #2b5180;
+}
+.active {
+    background-color: #a0c9fa;
+    color: #000;
+    font-weight: 600;
+}
+
+@media (max-width: 650px) {
+    .bookWrapper {
+        width: 90%;
+        margin: 50px auto;
+    }
+    /* .bookFormItem{
+        width:90%;
+    }
+    .servicesNeeded{
+        width:90%;
+    } 
+    .bookFormBtn{
+        width:90%;
+    }
+    .bookFormButton{
+        width:60%;
+    } */
+    .appointmentForm {
+        width: 100%;
+    }
+}

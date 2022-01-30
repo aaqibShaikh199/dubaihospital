@@ -1,0 +1,52 @@
+.find-section{
+    width:100%;
+}
+.findContainer{
+    width:80%;
+    margin:50px auto;
+    display: flex;
+}
+.findBox{
+    background:#f1f3f4;;
+    padding:40px;
+    width:500px;
+    margin:10px 0;
+}
+.findBox.findBox2{
+    background:#e3e5e8;
+}
+.findMainHead{
+    font-size:22px;
+    font-weight: 700;
+}
+.findHeadTwo{
+    font-size:17px;
+    font-weight: 700;
+    color: #427cc5;
+    margin:12px 0;
+}
+.findPara{
+    font-size: 16px;
+    font-weight: 400;
+    color: #99a4ad;
+}
+.findButton{
+    border:1px solid #000;
+    width:60%;
+    padding:6px 0px;
+    text-transform: uppercase;
+    margin-top:20px;
+    text-align: center;
+}
+
+@media (max-width:1000px){
+    .findContainer{
+        flex-direction: column;
+    }
+    .findBox{
+        width:100%;
+    }
+    .findButton{
+        width:70%;
+    }
+}

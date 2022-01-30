@@ -1,0 +1,24 @@
+{
+    "app":{
+        "1":"Online Appointment Form",
+        "2":"Now you can request an appointment in some simple steps Online",
+        "3":"Your Full Name",
+        "4":"Your Age",
+        "5":"Gender",
+        "6":"Male",
+        "7":"Female",
+        "8":"Your Email",
+        "9":"Select Clinic",
+        "10":"Select doctor",
+        "11":"Select Date",
+        "12":"Select Slot",
+        "13":"Your Messsage",
+        "14":"Book Appointment",
+        "15":""
+    },
+    "ujimages":{
+        "journey":"/assets/about/OIH.Our.Journey.png",
+        "chart":"/assets/about/OIH.OrganizationalChart.png"
+        
+    }
+}

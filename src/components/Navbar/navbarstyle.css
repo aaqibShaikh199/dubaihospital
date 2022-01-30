@@ -1,0 +1,146 @@
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    --border-color: #000;
+    --border-width: 2px;
+    --bottom-distance: 0px;
+    /* you can increase this */
+    background-image: linear-gradient(var(--border-color), var(--border-color));
+    background-size: 0% var(--border-width);
+    background-repeat: no-repeat;
+    transition: background-size 0.3s;
+}
+
+.border-none-c {
+    border: 0;
+    border: none !important;
+}
+
+/* .navbar-link-hover div :after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px #019fb6;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.navbar-link-hover div:hover:after {
+  transform: scaleX(1);
+} */
+
+.navbar-link {
+    background-position: 50% calc(100% - var(--bottom-distance));
+}
+
+/* h1:hover {
+  background-size: 100% var(--border-width);
+} */
+
+.navbrand {
+    width: 70%;
+}
+
+.dropdown-menu {
+    position: absolute;
+    list-style: none;
+    top: 50px;
+    text-align: start;
+    z-index: 10;
+    box-shadow: 0 10px 16px 11px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.dropdown-menu li {
+    background: #fff;
+    cursor: pointer;
+    color: #000;
+}
+
+.dropdown-menu li:hover {
+    background: #858282;
+    color: #fff;
+}
+
+.dropdown-menu.clicked {
+    display: none;
+}
+
+.dropdown-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #000;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .dropdown-link:hover{
+  padding: 3px;
+} */
+
+.subdropdown-menu {
+    position: absolute;
+    list-style: none;
+    top: 0;
+    left: 200px;
+    text-align: start;
+}
+
+.subdropdown-menu li {
+    background: #fff;
+    cursor: pointer;
+    color: #000;
+}
+
+.subdropdown-menu li:hover {
+    background: #858282;
+    color: #fff;
+}
+
+.subdropdown-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #000;
+    padding: 3px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hoverColor:hover {
+    color: #588325;
+    /* color: #3b82f6; */
+}
+.customNav:hover {
+    color: #588325;
+    /* color: #145da0; */
+}
+.activeLink {
+    font-weight: 500;
+    color: #588325;
+    /* color: #3b82f6; */
+    border-bottom-width: 2px;
+}
+
+.drop-box {
+    height: 200px;
+    width: 220px;
+    overflow-y: scroll;
+}
+
+@media (min-width: 768px) {
+    .navbrand {
+        width: 27%;
+    }
+}

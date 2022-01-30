@@ -1,0 +1,40 @@
+.bg-header {
+    /* background-color: #ddddad; */
+    background-color: #fff;
+}
+
+.headerText {
+    color: #111;
+    /* color: #0C2D48; */
+}
+
+.titleColor {
+    color: #252827;
+    /* color: #05445e; */
+}
+
+.textColor {
+    color: #252827;
+    /* color: #1b434d; */
+}
+.facts-container {
+    height: 65vh;
+}
+
+.main-text-fact {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 35%;
+    left: 50%;
+    transform: translate(-65%, -50%);
+}
+.z-1000 {
+    z-index: 1000;
+}
+
+@media (min-width: 768px) {
+    .facts-container {
+        height: 50vh !important;
+    }
+}

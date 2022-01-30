@@ -1,0 +1,50 @@
+{
+     "to": "Treatmemt Offered",
+     "dm": "Diagnostic modalities",
+     "tm": "Therapeutic modalities",
+     "Pediatrics Department": {
+          "dname": "Pediatrics Department",
+          "detail": "A paediatrician is a child's physician who provides not only medical care for children who are acutely or chronically ill but also preventive health services for healthy children. A paediatrician manages physical, mental, and emotional well-being of the children under their care at every stage of development, in both sickness and health. Pediatrics is the branch of medicine dealing with the health and ‎medical care of infants, children, and adolescents from birth up to the ‎age of 18.‎",
+          "treatment": "Dedicated to providing children under 14 years of age with the highest quality of care in a comforting environment, the Pediatrics department at Osra Hospital is one of the most trusted in the region.",
+          "dm1": "Blood sampling",
+          "dm2": "Pulse oxymetry ",
+          "dm3": "Throat swab and skin swab for Culture and Sensitivity studies",
+          "dm4": "Arterial blood gas sampling",
+          "dm5": "Radiological & Laboratory investigation",
+          "tm1": "Intravenous line cannulation",
+          "tm2": "Intravenous fluid administration ",
+          "tm3": "Gastric lavage",
+          "tm4": "Naso-gastric tube placement",
+          "tm5": "Umbilical vein catheterization",
+          "tm6": "Phototheraphy",
+          "tm7": "Chest tube placement",
+          "tm8": "Conventional mechanical ventilation",
+          "tm9": "Management of Neonatal diseases",
+          "tm10": "Management of Pediatric diseases as DKA, RSV, Bronchopneumonia, convulsions and other diseases"
+     },
+     "Gastroenterology  Department": {
+          "dname": "Gastroenterology  Department",
+          "detail": "Gastroenterology is a medical specialty dealing with the study of the digestive system and its disorders. ... Gastrointestinal services incorporate a joint medical and surgical approach for the prevention, diagnosis and treatment of gastrointestinal, liver and pancreatic disorders including cancer.\u000d\u000a\u000d\u000a          The department is manned by esteemed and experienced gastroenterologists, efficient medical officers, skilled and compassionate paramedical staff, and well-trained technicians. The aim of the department is to provide a patient-focused approach.",
+          "treatment": "Our Gastroenterology Department is dedicated to exceeding expectations. We provide cutting edge treatment",
+          "tm1": "Herpetology and Endoscopy",
+          "tm2": "Diagnose and treating internal Medicine",
+          "tm3": "Liver Diseases",
+          "tm4": "Gastrointestinal",
+          "tm5": "Pancreatic Diseases"
+     },
+     "Cardiology Department": {
+          "dname": "Cardiology Department",
+          "detail": "Cardiology is the study and treatment of disorders of the heart and the blood vessels. A person with heart disease or cardiovascular disease may be referred to a cardiologist. Cardiology is a branch of internal medicine.\u000d\u000a\u000d\u000a          A cardiologist is not the same as a cardiac surgeon. A cardiac surgeon opens the chest and performs heart surgery. A cardiologist specializes in diagnosing and treating diseases of the cardiovascular system.",
+          "treatment": "Our department of Cardiology is dedicated to exceeding expectations. We provide cutting edge treatment of disorders below",
+          "tm1": "Internal medicine Cases",
+          "tm2": "Cardio Vascular System",
+          "tm3": "Trauma",
+          "tm4": "High Blood Pressure",
+          "tm5": "Diabetes",
+          "tm6": "Incision biopsy",
+          "tm7": "Excision Biopsy",
+          "tm8": "Diagnostic Laparoscopy",
+          "tm9": "Respiratory system",
+          "tm10": "Digestive system"
+     }
+}

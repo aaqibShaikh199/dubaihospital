@@ -1,0 +1,20 @@
+{
+    "dietitian":{
+        "title": "Dietitian",
+        "subTitle": "Dietitian Department",
+        "bodyPart1": "The Clinical Nutrition & Dietetics department at Lifepoint Multispecialty Hospital is a one-stop solution for all therapeutic diet and nutrition queries when it comes to health and illness. We provide comprehensive nutrition and diet services to both in-patients and out-patients.",
+        "bodyPart2": "A dietitian, medical dietitian, or dietician is an expert in identifying and treating disease-related malnutrition and in conducting medical nutrition therapy. A dietitian, medical dietitian, or dietician is an expert in identifying and treating disease-related malnutrition and in conducting medical nutrition therapy",
+        "treatmentHead": "Treatments Offered",
+        "treatmentBody": "Our clinical dietician is specialized is assessing the nutritional status of the patient, calculate individual nutritional requirements and plan the diet accordingly depending upon the patients health condition.",
+        "deptHead": "Department Doctors",
+        "deptSubHead": "Our expert team of dietitian specializes",
+        "treatment1": "Slimming and fitness programs",
+        "treatment2": "Obesity programs",
+        "treatment3": "Monitor the nutritional status of patients",
+        "treatment4": "Follow-up of the nutritional status of the patient after the operations"
+    },
+    "er":{
+        "title":"ER Department"
+        
+    }
+}
